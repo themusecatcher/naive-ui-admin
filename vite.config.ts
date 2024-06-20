@@ -50,6 +50,7 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
       host: true,
       port: VITE_PORT,
       proxy: createProxy(VITE_PROXY),
+      open: true
     },
     optimizeDeps: {
       include: [],
